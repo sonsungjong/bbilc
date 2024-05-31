@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.back-img{
+    height:675px;
+    background-image: url(./img/메인.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:45px;
+    padding: 0 45px;
+    border:1px solid white;
+}
+
+.top-nav ul{
+    list-style: none;
+    display:flex;
+}
+
+.top-nav li{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    height:45px;
+    display: flex;
+    align-items: center;
+    padding:0 5px;
+}
+
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 45px;
+    height:78px;
+    border-bottom: 1px solid white;
+}
+
+.bottom-nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-nav li{
+    border-right: 1px solid white;
+}
+
+.bottom-nav ul li a{
+    color:white;
+    padding:28px 20px;
+}
+
+.bottom-nav ul li a:hover{
+    background:#6ab43e;
+}
+
+
+.whole-nav{
+    width:100%;
+    background:transparent;
+    color:white;
+    position: fixed;
+    width:100%;
+}
+
+.whole-nav a{
+    color:white;
+}
+
+.facebook{
+    width:50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size:small;
+}
+
+.blog{
+    width:50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size:small;
+}
+
+.facebook:hover{
+    background:blue;
+    width:120px;
+}
+
+.blog:hover{
+    background:#6ab43e;
+    width:120px;
+}
+
+.main-content{
+    color:#6ab43e;
+    background: white;
+    padding:50px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+}
+
+.main-content a{
+    color:#6ab43e;
+}
+
+.main-content div{
+    height:75px;
+    border:1px solid lightgray;
+    display:flex;
+    align-items: center;
+    padding:0 30px;
+    font-size:large;
+    font-weight: bold;
+}
+
+footer{
+    color:white;
+    background:black;
+    text-align: center;
+    padding: 50px 0;
+    line-height: 1.5;
+}
