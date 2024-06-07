@@ -4,29 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>페이지</title>
+    <link rel="stylesheet" href="./page.css">
 </head>
 <body>
     <nav class="whole-nav">
-        <div class="top-nav">
-            <ul>
-                <li class="facebook"><a href="#">페이스북</a></li>
-                <li class="blog"><a href="#">블로그</a></li>
-            </ul>
-            <span>032-321-4003 | bbilc4003@naver.com </span>
-        </div>
-        <div class="bottom-nav">
-            <div>
-                <h2><a href="#">복사골장애인자립생활지원센터</a></h2>
-                <p>Boksagol Center for Independent Living</p>
+        <div style="background:black;">
+            <div class="top-nav">
+                <ul>
+                    <li class="facebook"><a href="#">페이스북</a></li>
+                    <li class="blog"><a href="#">블로그</a></li>
+                </ul>
+                <span>032-321-4003 | bbilc4003@naver.com </span>
             </div>
-            <ul>
-                <li><a href="#">단체소개</a></li>
-                <li><a href="#">사업소개</a></li>
-                <li><a href="#">후원하기</a></li>
-                <li><a href="#">커뮤니티</a></li>
-                <li><a href="#">회원가입</a></li>
-                <li><a href="#">로그인</a></li>
-            </ul>
+        </div>
+        <div style="background: white;">
+            <div class="bottom-nav">
+                <div>
+                    <h2><a href="#">복사골장애인자립생활지원센터</a></h2>
+                    <p>Boksagol Center for Independent Living</p>
+                </div>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#">단체소개</a>
+                        <div class="dropdown-content">
+                            <a href="#">단체소개</a>
+                            <a href="#">연혁</a>
+                            <a href="#">조직도</a>
+                            <a href="#">오시는길</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">사업소개</a>
+                        <div class="dropdown-content">
+                            <a href="#">주요사업</a>
+                            <a href="#">기타사업</a>
+                            <a href="#">공익활동</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">후원하기</a>
+                        <div class="dropdown-content">
+                            <a href="#">Sample1</a>
+                            <a href="#">Sample2</a>
+                            <a href="#">Sample3</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">커뮤니티</a>
+                        <div class="dropdown-content">
+                            <a href="#">Sample1</a>
+                            <a href="#">Sample2</a>
+                            <a href="#">Sample3</a>
+                        </div>
+                    </li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">로그인</a></li>
+                </ul>
+            </div>
+
         </div>
     </nav>
 
@@ -34,7 +69,9 @@
     <div class="main-content">
         <h1>후원안내</h1>
         <hr>
-        <img src="./img/메인.png">
+        <div class="content">
+            <img src="./img/donation.png" />
+        </div>
     </div>
 
     <footer>
@@ -45,5 +82,7 @@
         <p>Copyright ©2024 복사골장애인자립생활지원센터 . All rights reserved. Powered by WordPress & Designed by Bizberg Themes</p>
     </footer>
     
+    <script src="./main.js"></script>
+
 </body>
 </html>

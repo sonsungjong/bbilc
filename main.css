@@ -144,7 +144,7 @@ footer{
 
 .dropdown-content{
     position: absolute;
-    background-color: white;
+    background: white;
     margin-top:28px;
     color:black;
     min-width:160px;
